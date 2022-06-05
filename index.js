@@ -17,13 +17,13 @@ function moveDodgerRight(){
     }
 }
 
-document.addEventListener("keydown", function(e){
+document.addEventListener("keydown", function(event){
     if (e.key === "ArrowLeft"){
         moveDodgerLeft();
     }
 });
 
-document.addEventListener("keydown", function(e){
+document.addEventListener("keydown", function(event){
     if (e.key === "ArrowRight"){
         moveDodgerRight();
     }
